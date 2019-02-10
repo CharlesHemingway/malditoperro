@@ -48,10 +48,10 @@ window.netlifyIdentity.on('logout', function () {
 // Log netlifySiteURL if editing on localhost
 if (
   window.location.hostname === 'localhost' &&
-  window.localStorage.getItem('netlifySiteURL')
+  window.localStorage.getItem('https://www.malditoperro.xyz')
 ) {
   console.log(
-    `%cnetlifySiteURL: ${window.localStorage.getItem('netlifySiteURL')}`,
+    `%cnetlifySiteURL: ${window.localStorage.getItem('https://www.malditoperro.xyz')}`,
     'color: hotpink; font-size: 15px'
   )
 }
