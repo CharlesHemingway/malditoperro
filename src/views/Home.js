@@ -25,7 +25,7 @@ export default ({ fields }) => {
         <TwitterTimelineEmbed
             sourceType="profile"
             screenName="malditoperromx"
-            options={{width: 250, height: 1500, margin: 20,}}
+            options={{width: 450, height: 1500, margin: 20,}}
             noScrollbar
         />
       </div>
