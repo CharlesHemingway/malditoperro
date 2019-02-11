@@ -1,7 +1,7 @@
 import React from 'react'
 
 import PageHeader from '../components/PageHeader'
-import LazyImage from '../components/LazyImage'
+//import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 import './About.css'
 
@@ -20,7 +20,7 @@ export default ({ fields }) => {
         </div>
       </div>
       <div className='section'>
-        
+        <Content source={section2} />
       </div>
     </div>
   )
