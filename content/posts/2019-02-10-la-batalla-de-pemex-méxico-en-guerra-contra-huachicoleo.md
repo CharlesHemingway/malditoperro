@@ -10,7 +10,7 @@ excerpt: >-
   del gobierno y de la compañía. Al menos 3 mil millones de dólares en
   combustible fueron robados anualmente de los depósitos de Pemex.
 categories:
-  - category: Español
+  - category: Spanish
   - category: Mexico
   - category: Pemex
   - category: Guerra De Recursos
