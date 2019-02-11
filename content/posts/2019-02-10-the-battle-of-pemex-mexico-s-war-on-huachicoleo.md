@@ -15,7 +15,7 @@ categories:
   - category: Resource War
   - category: Corruption
   - category: AMLO
-  - category: English
+  - category: Eng
 meta:
   canonicalLink: ''
   description: >-
