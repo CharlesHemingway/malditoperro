@@ -1,6 +1,6 @@
 ---
 title: Sobre nostros
-featuredImage: /images/uploads/tim-marshall-155597.jpg
+featuredImage: /images/uploads/action-blur-close-up-735911.jpg
 subtitle: Quien somos?
 section1: >-
   Somos un grupo de activistas, periodistas, investigadores y otras personas
