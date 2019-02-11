@@ -19,8 +19,11 @@ export default ({ fields }) => {
           <Content source={section1} />
         </div>
       </div>
+    
       <div className='section'>
-        <Content source={section2} />
+        <div className='container'>
+         <Content source={section2} />
+        </div>
       </div>
     </div>
   )
