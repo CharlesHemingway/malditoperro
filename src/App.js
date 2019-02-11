@@ -12,11 +12,14 @@ import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import GithubCorner from './components/GithubCorner'
+//import GithubCorner from './components/GithubCorner'
 import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import data from './data.json'
 import { slugify } from './util/url'
 import { documentHasTerm, getCollectionTerms } from './util/collection'
+
+//<GithubCorner url='https://twitter.com/malditoperromx' />
+          
 
 const RouteWithMeta = ({ component: Component, ...props }) => (
   <Route
@@ -64,7 +67,6 @@ class App extends Component {
         <div className='React-Wrap'>
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://twitter.com/malditoperromx' />
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
