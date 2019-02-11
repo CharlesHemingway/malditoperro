@@ -10,12 +10,12 @@ excerpt: >-
   billion dollars in fuel were stolen yearly from Mexico’s state-run fuel depots
   at Pemex.
 categories:
+  - category: English
   - category: Mexico
   - category: Pemex
   - category: Resource War
   - category: Corruption
   - category: AMLO
-  - category: Eng
 meta:
   canonicalLink: ''
   description: >-
