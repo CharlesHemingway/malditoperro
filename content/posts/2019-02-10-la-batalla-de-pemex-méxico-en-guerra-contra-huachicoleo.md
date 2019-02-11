@@ -15,7 +15,7 @@ categories:
   - category: Guerra De Recursos
   - category: Corrupción
   - category: AMLO
-  - category: Español
+  - category: Esp
 meta:
   description: >-
     En México, la represión nacional de ALMO contra el robo masivo de
