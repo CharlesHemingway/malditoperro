@@ -1,6 +1,6 @@
 ---
 title: 'The Battle Of Pemex: Mexico''s War On Huachicoleo'
-status: Featured
+status: Published
 date: '2019-02-10'
 postFeaturedImage: /images/uploads/pemex.jpg
 excerpt: >-
