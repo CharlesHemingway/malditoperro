@@ -9,11 +9,11 @@ excerpt: >-
   give up their daily lives for a period to defend their country. These are
   professional killers.
 categories:
+  - category: A Stateless War
   - category: English
   - category: Military
   - category: War
   - category: US
-  - category: A Stateless War
 meta:
   canonicalLink: The-Military-Mafia
   description: ' They are bred on hate and violent media, they are desensitized from childhood, and they enter the army as teenagers. These are not regular citizens forced to give up their daily lives for a period to defend their country. These are professional killers.'
