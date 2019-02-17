@@ -9,6 +9,7 @@ excerpt: >-
   normales obligados a renunciar a sus vidas diarias por un período para
   defender a su país. Estos son asesinos profesionales.
 categories:
+  - category: Una guerra sin estado
   - category: Spanish
 meta:
   canonicalLink: La-Mafia-Militar
