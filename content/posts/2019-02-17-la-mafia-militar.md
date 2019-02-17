@@ -11,6 +11,9 @@ excerpt: >-
 categories:
   - category: Una guerra sin estado
   - category: Spanish
+  - category: Militar
+  - category: Guerra
+  - category: EEUU
 meta:
   canonicalLink: La-Mafia-Militar
   description: >-
