@@ -11,6 +11,7 @@ excerpt: >-
 categories:
   - category: Spanish
 meta:
+  canonicalLink: La-Mafia-Militar
   description: >-
     Se crían con odio y medios violentos, están insensibilizados desde la
     infancia y entran en el ejército cuando son adolescentes. Estos no son
