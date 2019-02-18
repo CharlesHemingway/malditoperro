@@ -9,9 +9,9 @@ excerpt: >-
 categories:
   - category: Una guerra sin estado
   - category: Spanish
-  - category: Guerra
+  - category: Una guerra sin estado
 ---
-**`By Heather Marsh`**
+[**`By Heather Marsh`**](https://georgiebc.wordpress.com)
 
 Acerca de esta enorme guerra mundial, que la mayor parte de la población parece no a ver dado cuenta que estamos en. Un resumen basico.
 
@@ -36,16 +36,14 @@ La mayoría de ustedes probablemente se han dado cuenta de que la mayor parte de
 
 El Internet es la ubicación más importante, pero no la única. Donde es posible la comunicación. Una verdadera democracia se lleva a cabo abiertamente, y un gobierno abierto es el enemigo de todo mal gobierno.
 
-**¿Cuándo es la guerra?**
+**¿Cuándo es la guerra?
+**
 
 Espero escribir un artículo sobre los momentos y eventos cruciales un día pronto. Como todos los grandes conflictos, esta guerra es una continuación de los ciclos que comenzaron hace mucho tiempo. En este caso, los comienzos del hacking y las redes BBS probablemente marcarían el prólogo. Este verano, que presentó tantos disparadores enormes: el derrame de petróleo de BP, la escalada de Afganistán, la retirada / no retirada de Irak y, sobre todo, el volcado de documentos de Afganistán de Wikileaks el 25 de julio de 2010, casi seguramente se marcará como el principio.
 
-**¿Cómo peleamos esta guerra?**
-
-
+**¿Cómo peleamos esta guerra?
+**
 
 De esto es lo que trata este blog. Manténgase saludable, manténgase fuerte, edúquese e infórmese y comience a contribuir a su propio gobierno.
-
-
 
 Artículo original: https://georgiebc.wordpress.com/2010/09/12/a-stateless-war/
