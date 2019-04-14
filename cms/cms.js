@@ -6,8 +6,10 @@ import Home from '../src/views/Home'
 import Sobre from '../src/views/Sobre'
 import Contact from '../src/views/Contact'
 import Reportes from '../src/views/Reportes'
+import Guias from '../src/views/Guias'
 
 import SinglePost from '../src/views/SinglePost'
+import SinglePostguia from '../src/views/SinglePostguias'
 
 console.log('React version', React.version)
 
@@ -22,7 +24,7 @@ const getDocument = (collection, name) =>
 const getDocuments = (collection, name) => data[collection]
 
 const globalSettings = getDocument('settings', 'global')
-const posts = getDocuments('posts')
+const posts = getDocuments('posts','postsguias')
 
 // Preview Templates
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
@@ -37,8 +39,14 @@ CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
 CMS.registerPreviewTemplate('reportes-page', ({ entry }) => (
   <Reportes fields={entry.toJS().data} posts={posts} />
 ))
+CMS.registerPreviewTemplate('guias-page', ({ entry }) => (
+  <Reportes fields={entry.toJS().data} posts={postsguias} />
+))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePost fields={entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('postsguias', ({ entry }) => (
+  <SinglePostguia fields={entry.toJS().data} />
 ))
 
 // Return to home when user logging out

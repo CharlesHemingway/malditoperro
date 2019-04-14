@@ -7,6 +7,7 @@ import Meta from './components/Meta'
 import Home from './views/Home'
 import Sobre from './views/Sobre'
 import Reportes from './views/Reportes'
+import Guias from './views/Guias'
 import SinglePost from './views/SinglePost'
 import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
@@ -54,11 +55,11 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    const posts = this.getDocuments('posts').filter(
+    const posts = this.getDocuments('posts','postsguias').filter(
       post => post.status !== 'Draft'
     )
     const categoriesFromPosts = getCollectionTerms(posts, 'categories')
-    const postCategories = this.getDocuments('postCategories').filter(
+    const postCategories = this.getDocuments('postCategories','postCategoriesguias').filter(
       category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
     )
 
@@ -149,6 +150,52 @@ class App extends Component {
                   exact
                   component={Reportes}
                   fields={this.getDocument('pages', 'reportes')}
+                  posts={categoryPosts}
+                  postCategories={postCategories}
+                />
+              )
+            })}
+
+      <RouteWithMeta
+              path='/guias/'
+              exact
+              component={Guias}
+              fields={this.getDocument('pages', 'guias')}
+              posts={posts}
+              postCategories={postCategories}
+            />
+
+
+            {posts.map((post, index) => {
+              const path = slugify(`/guias/${post.title}`)
+              const nextPost = posts[index - 1]
+              const prevPost = posts[index + 1]
+              return (
+                <RouteWithMeta
+                  key={path}
+                  path={path}
+                  exact
+                  component={SinglePost}
+                  fields={post}
+                  nextPostURL={nextPost && slugify(`/guias/${nextPost.title}/`)}
+                  prevPostURL={prevPost && slugify(`/guias/${prevPost.title}/`)}
+                />
+              )
+            })}
+
+            {postCategories.map(postCategory => {
+              const slug = slugify(postCategory.title)
+              const path = slugify(`/guias/category/${slug}`)
+              const categoryPosts = posts.filter(post =>
+                documentHasTerm(post, 'categories', slug)
+              )
+              return (
+                <RouteWithMeta
+                  key={path}
+                  path={path}
+                  exact
+                  component={Guias}
+                  fields={this.getDocument('pages', 'guias')}
                   posts={categoryPosts}
                   postCategories={postCategories}
                 />
