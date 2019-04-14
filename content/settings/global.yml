@@ -3,7 +3,7 @@ siteUrl: 'https://Malditoperro.xyz'
 siteDescription: 'Reportes, Investigaciones, Y Mas.'
 socialMediaCard:
   image: /images/uploads/card-og.jpg
-  twitterCreatorAccount: '@ossieltweets'
+  twitterCreatorAccount: '@ortrmx'
   twitterSiteAccount: 'https://twitter.com/malditoperromx'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
 enableServiceWorker: false

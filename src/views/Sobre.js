@@ -3,7 +3,7 @@ import React from 'react'
 import PageHeader from '../components/PageHeader'
 //import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
-import './About.css'
+import './Sobre.css'
 
 export default ({ fields }) => {
   const { title, subtitle, featuredImage, section1, section2 } = fields

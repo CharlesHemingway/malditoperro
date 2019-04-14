@@ -35,9 +35,9 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/blog.md"
-        label: "Blog Page"
-        name: "blog-page"
+      - file: "content/pages/reportes.md"
+        label: "Reportes Page"
+        name: "reportes-page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: featuredImage, widget: image}

@@ -20,8 +20,8 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
       )}
 
       <div className='container skinny'>
-        <Link className='SinglePost--BackButton' to='/blog/'>
-          <ChevronLeft /> BACK
+        <Link className='SinglePost--BackButton' to='/reportes/'>
+          <ChevronLeft /> Atras
         </Link>
         <div className='SinglePost--Content relative'>
           <div className='SinglePost--Meta'>

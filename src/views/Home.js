@@ -21,13 +21,16 @@ export default ({ fields }) => {
         <div className='container'>
           <Content source={body} />
         </div>
-      <div className='twittercontainer'>
+
+      <div className='section'>
+
+        <div className='container'>
         <TwitterTimelineEmbed
             sourceType="profile"
             screenName="malditoperromx"
-            options={{width: 450, height: 1500, margin: 20,}}
             noScrollbar
         />
+        </div>
       </div>
 
       </div>

@@ -16,6 +16,7 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: #f442d4;
-  border-bottom-color: currentColor;
+  color: rgb(34, 167, 240); 
+  text-decoration: none;
+  border-bottom-color: transparent;
 }

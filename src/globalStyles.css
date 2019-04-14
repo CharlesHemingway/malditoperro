@@ -1,7 +1,7 @@
 :root {
-  --primary: #0984d2;
-  --primary-light: #6fadff;
-  --secondary: #212121;
+  --primary: rgb(36, 37, 42);
+  --primary-light: rgb(243, 241, 239);
+  --secondary: rgb(46, 49, 49);
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
@@ -17,7 +17,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background: var(--darkGrey);
 }
 
 body {
@@ -100,7 +100,6 @@ blockquote {
 }
 .dark {
   background-color: var(--primary);
-  color: white;
 }
 .dark h1,
 .dark h2,
@@ -108,7 +107,7 @@ blockquote {
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: white;
+  color: var(--primary);
 }
 
 .relative {
@@ -135,7 +134,7 @@ blockquote {
 
 .section {
   width: 100%;
-  padding: 7.5rem 0;
+  padding: 1.5rem 0;
 }
 .section.thick {
   padding: 10rem 0;

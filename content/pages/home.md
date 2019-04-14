@@ -1,6 +1,6 @@
 ---
 title: Malditoperro
-featuredImage: /images/uploads/isabella juskova.jpg
+featuredImage: /images/uploads/background.jpg
 subtitle: 'Reportes, Investigaciones, y Mas'
 meta:
   title: ''

@@ -5,7 +5,7 @@ import _sortBy from 'lodash/sortBy'
 import PostCategoriesNav from '../components/PostCategoriesNav'
 import PostSection from '../components/PostSection'
 
-import './Blog.css'
+import './Reportes.css'
 
 export default ({
   fields,
@@ -17,7 +17,7 @@ export default ({
   posts = _sortBy(posts, ['date']).reverse()
 
   return (
-    <main className='Blog'>
+    <main className='Reportes'>
       {!!postCategories.length && (
         <PostCategoriesNav categories={postCategories} />
       )}

@@ -1,11 +1,11 @@
 .PageHeader {
-  background-color: var(--darkGrey);
+  background-color: var(--primary);
   color: white;
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 
 .PageHeader-large {
-  padding: 20rem 0;
+  padding: 10rem 0;
 }
 
 .PageHeader--Title {
